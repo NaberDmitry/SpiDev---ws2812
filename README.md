@@ -1,5 +1,12 @@
 http://www.orangepi.org/orangepibbsen//forum.php?mod=viewthread&tid=3318&page=1&extra=#pid21903
 
+nano /boot/armbianEnv.txt :
+
+overlay_prefix=sun8i-h3
+overlays=spi-spidev
+param_spidev_spi_bus=0
+param_spidev_max_freq=100000000
+
 
 
 
