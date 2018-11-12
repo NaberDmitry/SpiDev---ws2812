@@ -5,11 +5,14 @@ nano /boot/armbianEnv.txt :
 ```python
 overlay_prefix=sun8i-h3
 overlays=spi-spidev
-param_spidev_spi_bus=0
+param_spidev_spi_bus=1
 param_spidev_max_freq=100000000
 ```
 
+apt-get install python-dev git
 
+cd ws2812
+python test.py
 
 
 
