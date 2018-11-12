@@ -1,3 +1,9 @@
+http://www.orangepi.org/orangepibbsen//forum.php?mod=viewthread&tid=3318&page=1&extra=#pid21903
+
+
+
+
+
 Python Spidev
 =============
 
