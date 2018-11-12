@@ -11,9 +11,14 @@ param_spidev_max_freq=100000000
 
 apt-get install python-dev git
 
-cd ws2812
-python test.py
 
+```python
+cd SpiDev---ws2812
+make
+make install
+
+python test.py
+```
 
 
 
